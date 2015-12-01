@@ -14,12 +14,13 @@
     tools:context="com.example.sriharish.myapplication.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Hello World"
         android:id="@+id/textView"
         android:textSize="45sp"
+        android:textAlignment="center"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
@@ -39,10 +40,8 @@
         android:inputType="number"
         android:ems="10"
         android:id="@+id/editText"
-        android:layout_below="@+id/textView"
-        android:layout_alignLeft="@+id/textView"
-        android:layout_alignStart="@+id/textView"
-        android:layout_marginTop="70dp" />
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -53,5 +52,14 @@
         android:layout_centerVertical="true"
         android:layout_alignLeft="@+id/editText"
         android:layout_alignStart="@+id/editText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADDEr"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:textSize="35dp" />
 
 </RelativeLayout>
